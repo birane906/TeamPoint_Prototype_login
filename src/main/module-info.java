@@ -4,7 +4,6 @@ module TeamPoint.Prototype.login {
     requires javafx.controls;
     requires java.sql;
     requires mysql.connector.java;
-
     opens gui.view;
     opens gui.controller;
 }
